@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./terminal.svg" alt="Animated terminal: George Levis — AI/ML Engineer in Athens, working on GenAI, LLM systems, and deployment" width="800" />
+<img src="./terminal.svg?v=2" alt="Animated terminal: George Levis — AI/ML Engineer in Athens, working on GenAI, LLM systems, and deployment" width="800" />
 
 </div>
 
