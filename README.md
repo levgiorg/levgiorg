@@ -1,21 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=520&lines=George+Levis;AI+%2F+ML+Engineer;Efficient+Deep+Learning;Reinforcement+Learning;LLM+Systems" alt="George Levis — AI/ML Engineer" />
+<img src="./terminal.svg" alt="Animated terminal: George Levis — AI/ML Engineer in Athens, working on efficient inference, reinforcement learning, and LLM systems" width="720" />
 
 </div>
-
-```console
-levgiorg@github ~ % whoami
-George Levis — AI/ML Engineer · Athens, GR
-
-levgiorg@github ~ % ls ~/research
-efficient-inference/      pruning · knowledge distillation · early exit
-reinforcement-learning/   DQN agents · multi-agent energy markets
-llm-systems/              finetuning · RAG · AI-text detection
-
-levgiorg@github ~ % uptime
-building models that run faster, smaller, and in production
-```
 
 ## Stack
 
