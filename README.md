@@ -4,6 +4,8 @@
 
 </div>
 
+## Stack
+
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=py,ts,pytorch,tensorflow,fastapi,kafka,redis,postgres,mongodb,docker,kubernetes,aws,githubactions,git,linux" alt="Python, TypeScript, PyTorch, TensorFlow, FastAPI, Kafka, Redis, PostgreSQL, MongoDB, Docker, Kubernetes, AWS, GitHub Actions, Git, Linux" />
