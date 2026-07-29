@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,r,fastapi,docker,kubernetes,githubactions,git,latex,linux" alt="Python, PyTorch, scikit-learn, R, FastAPI, Docker, Kubernetes, GitHub Actions, Git, LaTeX, Linux" />
+<img src="https://skillicons.dev/icons?i=py,ts,pytorch,tensorflow,fastapi,kafka,redis,postgres,mongodb,docker,kubernetes,aws,githubactions,git,linux" alt="Python, TypeScript, PyTorch, TensorFlow, FastAPI, Kafka, Redis, PostgreSQL, MongoDB, Docker, Kubernetes, AWS, GitHub Actions, Git, Linux" />
 
 </div>
 
@@ -23,35 +23,12 @@
 | [DocuRAG](https://github.com/levgiorg/DocuRAG) | Retrieval-augmented generation over document collections |
 | [Mnist-example-in-kubeflow](https://github.com/levgiorg/Mnist-example-in-kubeflow) | End-to-end ML pipeline on Kubeflow |
 
-## Activity
-
 <div align="center">
-
-<img src="https://streak-stats.demolab.com?user=levgiorg&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=levgiorg&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" width="100%" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/levgiorg/levgiorg/output/github-snake.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/levgiorg/levgiorg/output/github-snake-light.svg" />
   <img src="https://raw.githubusercontent.com/levgiorg/levgiorg/output/github-snake.svg" alt="Contribution snake animation" />
 </picture>
-
-<!--
-github-readme-stats.vercel.app was down (503, rate-limited) when this profile was built.
-If it recovers, or if you self-host it on Vercel, uncomment:
-
-<img src="https://github-readme-stats.vercel.app/api?username=levgiorg&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=levgiorg&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Top languages" />
--->
-
-</div>
-
-## Reach me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-giorgos--levis-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/giorgos-levis)
-[![Website](https://img.shields.io/badge/Blog-levgiorg.github.io-58A6FF?logo=githubpages&logoColor=white)](https://levgiorg.github.io)
 
 </div>

@@ -6,8 +6,8 @@
       <stop offset="1" stop-color="#7dcfff"/>
     </linearGradient>
     <clipPath id="typeWhoami"><rect x="54" y="50" width="0" height="20"><animate attributeName="width" calcMode="linear" dur="18s" repeatCount="indefinite" keyTimes="0;0.03;0.07;0.999;1" values="0;0;56;56;0"/></rect></clipPath>
-    <clipPath id="typeLs"><rect x="54" y="104" width="0" height="20"><animate attributeName="width" calcMode="linear" dur="18s" repeatCount="indefinite" keyTimes="0;0.16;0.22;0.999;1" values="0;0;106;106;0"/></rect></clipPath>
-    <clipPath id="typeTrain"><rect x="54" y="158" width="0" height="20"><animate attributeName="width" calcMode="linear" dur="18s" repeatCount="indefinite" keyTimes="0;0.32;0.42;0.999;1" values="0;0;224;224;0"/></rect></clipPath>
+    <clipPath id="typeLs"><rect x="54" y="104" width="0" height="20"><animate attributeName="width" calcMode="linear" dur="18s" repeatCount="indefinite" keyTimes="0;0.16;0.21;0.999;1" values="0;0;80;80;0"/></rect></clipPath>
+    <clipPath id="typeDeploy"><rect x="54" y="158" width="0" height="20"><animate attributeName="width" calcMode="linear" dur="18s" repeatCount="indefinite" keyTimes="0;0.31;0.45;0.999;1" values="0;0;348;348;0"/></rect></clipPath>
   </defs>
 
   <!-- window -->
@@ -23,23 +23,23 @@
   <!-- $ whoami -->
   <text x="20" y="64" fill="#9ece6a">➜ <tspan fill="#7dcfff">~</tspan></text>
   <g clip-path="url(#typeWhoami)"><text x="54" y="64" fill="#c0caf5">whoami</text></g>
-  <text x="20" y="86" fill="#a9b1d6"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.09;1" values="0;1;1"/>George Levis — AI/ML Engineer · Athens, GR</text>
+  <text x="20" y="86" fill="#a9b1d6"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.09;1" values="0;1;1"/>George Levis — AI/ML Engineer · GenAI &amp; LLM systems · Athens, GR</text>
 
-  <!-- $ ls research/ -->
+  <!-- $ ls genai/ -->
   <text x="20" y="118" fill="#9ece6a"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.14;1" values="0;1;1"/>➜ <tspan fill="#7dcfff">~</tspan></text>
-  <g clip-path="url(#typeLs)"><text x="54" y="118" fill="#c0caf5">ls research/</text></g>
-  <text x="20" y="140" fill="#7aa2f7" font-weight="bold"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.24;1" values="0;1;1"/>efficient-inference/   reinforcement-learning/   llm-systems/</text>
+  <g clip-path="url(#typeLs)"><text x="54" y="118" fill="#c0caf5">ls genai/</text></g>
+  <text x="20" y="140" fill="#7aa2f7" font-weight="bold"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.23;1" values="0;1;1"/>agents/   rag-pipelines/   finetuning/   evals/</text>
 
-  <!-- $ python train.py (compress) -->
-  <text x="20" y="172" fill="#9ece6a"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.30;1" values="0;1;1"/>➜ <tspan fill="#7dcfff">~</tspan></text>
-  <g clip-path="url(#typeTrain)"><text x="54" y="172" fill="#c0caf5">python train.py --compress</text></g>
+  <!-- $ kubectl rollout status deploy/llm-gateway -->
+  <text x="20" y="172" fill="#9ece6a"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.29;1" values="0;1;1"/>➜ <tspan fill="#7dcfff">~</tspan></text>
+  <g clip-path="url(#typeDeploy)"><text x="54" y="172" fill="#c0caf5">kubectl rollout status <tspan fill="#7dcfff">deploy/llm-gateway</tspan></text></g>
 
-  <!-- training progress bar -->
-  <g><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.45;1" values="0;1;1"/>
+  <!-- rollout progress bar -->
+  <g><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.48;1" values="0;1;1"/>
     <rect x="54" y="184" width="220" height="12" rx="3" fill="#292e42"/>
-    <rect x="54" y="184" height="12" rx="3" fill="#9ece6a"><animate attributeName="width" calcMode="linear" dur="18s" repeatCount="indefinite" keyTimes="0;0.45;0.68;0.999;1" values="0;0;220;220;0"/></rect>
+    <rect x="54" y="184" height="12" rx="3" fill="#9ece6a"><animate attributeName="width" calcMode="linear" dur="18s" repeatCount="indefinite" keyTimes="0;0.48;0.68;0.999;1" values="0;0;220;220;0"/></rect>
   </g>
-  <text x="286" y="195" fill="#a9b1d6"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.70;1" values="0;1;1"/><tspan fill="#e0af68">20/20</tspan> · loss 0.041 · 4.3× smaller <tspan fill="#9ece6a">✓</tspan></text>
+  <text x="286" y="195" fill="#a9b1d6"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.70;1" values="0;1;1"/><tspan fill="#e0af68">3/3</tspan> replicas · p95 42ms · serving <tspan fill="#9ece6a">✓</tspan></text>
 
   <!-- final prompt + cursor -->
   <g><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.75;1" values="0;1;1"/>
