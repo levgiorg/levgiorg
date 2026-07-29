@@ -1,49 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="14">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="289" viewBox="0 0 720 260" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="14">
   <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7aa2f7"/>
-      <stop offset="0.5" stop-color="#bb9af7"/>
-      <stop offset="1" stop-color="#7dcfff"/>
-    </linearGradient>
     <clipPath id="typeWhoami"><rect x="54" y="50" width="0" height="20"><animate attributeName="width" calcMode="linear" dur="18s" repeatCount="indefinite" keyTimes="0;0.03;0.07;0.999;1" values="0;0;56;56;0"/></rect></clipPath>
     <clipPath id="typeLs"><rect x="54" y="104" width="0" height="20"><animate attributeName="width" calcMode="linear" dur="18s" repeatCount="indefinite" keyTimes="0;0.16;0.21;0.999;1" values="0;0;80;80;0"/></rect></clipPath>
     <clipPath id="typeDeploy"><rect x="54" y="158" width="0" height="20"><animate attributeName="width" calcMode="linear" dur="18s" repeatCount="indefinite" keyTimes="0;0.31;0.45;0.999;1" values="0;0;348;348;0"/></rect></clipPath>
   </defs>
 
-  <!-- window -->
-  <rect x="1" y="1" width="718" height="258" rx="10" fill="#1a1b26" stroke="#414868" stroke-width="1.5"/>
-  <rect x="1" y="1" width="718" height="32" rx="10" fill="#16161e"/>
-  <rect x="1" y="20" width="718" height="13" fill="#16161e"/>
-  <rect x="1" y="32" width="718" height="2" fill="url(#accent)"/>
+  <!-- window: VS Code Default Dark Modern -->
+  <rect x="1" y="1" width="718" height="258" rx="10" fill="#1f1f1f" stroke="#313131" stroke-width="1.5"/>
+  <rect x="1" y="1" width="718" height="32" rx="10" fill="#181818"/>
+  <rect x="1" y="20" width="718" height="13" fill="#181818"/>
+  <rect x="1" y="32" width="718" height="2" fill="#0078d4"/>
   <circle cx="22" cy="17" r="6" fill="#f7768e"/>
   <circle cx="42" cy="17" r="6" fill="#e0af68"/>
   <circle cx="62" cy="17" r="6" fill="#9ece6a"/>
-  <text x="360" y="21" text-anchor="middle" font-size="12" fill="#565f89">levgiorg — zsh</text>
+  <text x="360" y="21" text-anchor="middle" font-size="12" fill="#9d9d9d">levgiorg — zsh</text>
 
   <!-- $ whoami -->
-  <text x="20" y="64" fill="#9ece6a">➜ <tspan fill="#7dcfff">~</tspan></text>
-  <g clip-path="url(#typeWhoami)"><text x="54" y="64" fill="#c0caf5">whoami</text></g>
-  <text x="20" y="86" fill="#a9b1d6"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.09;1" values="0;1;1"/>George Levis — AI/ML Engineer · GenAI &amp; LLM systems · Athens, GR</text>
+  <text x="20" y="64" fill="#23d18b">➜ <tspan fill="#29b8db">~</tspan></text>
+  <g clip-path="url(#typeWhoami)"><text x="54" y="64" fill="#cccccc">whoami</text></g>
+  <text x="20" y="86" fill="#cccccc"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.09;1" values="0;1;1"/>George Levis — AI/ML Engineer · GenAI &amp; LLM systems · Athens, GR</text>
 
   <!-- $ ls genai/ -->
-  <text x="20" y="118" fill="#9ece6a"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.14;1" values="0;1;1"/>➜ <tspan fill="#7dcfff">~</tspan></text>
-  <g clip-path="url(#typeLs)"><text x="54" y="118" fill="#c0caf5">ls genai/</text></g>
-  <text x="20" y="140" fill="#7aa2f7" font-weight="bold"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.23;1" values="0;1;1"/>agents/   rag-pipelines/   finetuning/   evals/</text>
+  <text x="20" y="118" fill="#23d18b"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.14;1" values="0;1;1"/>➜ <tspan fill="#29b8db">~</tspan></text>
+  <g clip-path="url(#typeLs)"><text x="54" y="118" fill="#cccccc">ls genai/</text></g>
+  <text x="20" y="140" fill="#3b8eea" font-weight="bold"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.23;1" values="0;1;1"/>agents/   rag-pipelines/   finetuning/   evals/</text>
 
   <!-- $ kubectl rollout status deploy/llm-gateway -->
-  <text x="20" y="172" fill="#9ece6a"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.29;1" values="0;1;1"/>➜ <tspan fill="#7dcfff">~</tspan></text>
-  <g clip-path="url(#typeDeploy)"><text x="54" y="172" fill="#c0caf5">kubectl rollout status <tspan fill="#7dcfff">deploy/llm-gateway</tspan></text></g>
+  <text x="20" y="172" fill="#23d18b"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.29;1" values="0;1;1"/>➜ <tspan fill="#29b8db">~</tspan></text>
+  <g clip-path="url(#typeDeploy)"><text x="54" y="172" fill="#cccccc">kubectl rollout status <tspan fill="#29b8db">deploy/llm-gateway</tspan></text></g>
 
   <!-- rollout progress bar -->
   <g><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.48;1" values="0;1;1"/>
-    <rect x="54" y="184" width="220" height="12" rx="3" fill="#292e42"/>
-    <rect x="54" y="184" height="12" rx="3" fill="#9ece6a"><animate attributeName="width" calcMode="linear" dur="18s" repeatCount="indefinite" keyTimes="0;0.48;0.68;0.999;1" values="0;0;220;220;0"/></rect>
+    <rect x="54" y="184" width="220" height="12" rx="3" fill="#333333"/>
+    <rect x="54" y="184" height="12" rx="3" fill="#23d18b"><animate attributeName="width" calcMode="linear" dur="18s" repeatCount="indefinite" keyTimes="0;0.48;0.68;0.999;1" values="0;0;220;220;0"/></rect>
   </g>
-  <text x="286" y="195" fill="#a9b1d6"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.70;1" values="0;1;1"/><tspan fill="#e0af68">3/3</tspan> replicas · p95 42ms · serving <tspan fill="#9ece6a">✓</tspan></text>
+  <text x="286" y="195" fill="#cccccc"><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.70;1" values="0;1;1"/><tspan fill="#dcdcaa">3/3</tspan> replicas · p95 42ms · serving <tspan fill="#23d18b">✓</tspan></text>
 
   <!-- final prompt + cursor -->
   <g><animate attributeName="opacity" calcMode="discrete" dur="18s" repeatCount="indefinite" keyTimes="0;0.75;1" values="0;1;1"/>
-    <text x="20" y="228" fill="#9ece6a">➜ <tspan fill="#7dcfff">~</tspan></text>
-    <rect x="54" y="216" width="9" height="15" fill="#c0caf5"><animate attributeName="opacity" calcMode="discrete" dur="1.1s" repeatCount="indefinite" keyTimes="0;0.5" values="1;0"/></rect>
+    <text x="20" y="228" fill="#23d18b">➜ <tspan fill="#29b8db">~</tspan></text>
+    <rect x="54" y="216" width="9" height="15" fill="#cccccc"><animate attributeName="opacity" calcMode="discrete" dur="1.1s" repeatCount="indefinite" keyTimes="0;0.5" values="1;0"/></rect>
   </g>
 </svg>
